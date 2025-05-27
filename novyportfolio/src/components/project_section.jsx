@@ -51,15 +51,20 @@ const project_section = () => {
         
             <div className={project.overlaystyle}></div>
 
-            <div className="">
-              
+            <div className=" ">
+
+              <div className="dov">
+                              
               <img src={project.mockupimg} className='relative z-20 w-auto h-[70vh]' v data-aos="fade-up-right"/>
                 
                 <div className="absolute top-0 right-0 opacity-5">
                   <img src={project.logo} className='relative z-0 w-auto h-[60vh]  ' v data-aos="fade-up-right"/>
                 </div>
 
-                <div className="absolute bottom-0 left-1/2 z-30 p-10 text-end">
+              </div>
+
+
+                <div className="absolute bottom-0 top-0 left-0 sm:left-0 md:left-1/2 lg:left-1/2 xl:left-1/2 2xl:left-1/2 z-30 p-10 text-end">
                 
                   <ScrollReveal
                       baseOpacity={0}
