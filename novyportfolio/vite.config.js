@@ -6,5 +6,8 @@ export default defineConfig({
   plugins: [
     react()
   ],
+<<<<<<< HEAD
     base: '/novydelacruz.github.io', // 👈 Important!
+=======
+>>>>>>> parent of 01c85c1 (deploy ready)
 })
