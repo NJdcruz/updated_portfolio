@@ -47,7 +47,7 @@ const hero_section = () => {
 
         <div className="  mr-5 mt-5 w-auto h-screen md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
             <div className="div">
-                <img src='./src/assets/hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
+                <img src='./public/hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
 
                 
 
@@ -98,28 +98,28 @@ const hero_section = () => {
                     <div className="div my-3">
                       <div className=" space-x-5 text-2xl sm: md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl">
                         <div className="tooltip" data-tip="facebook">
-                        <a>
+                        <a href='https://www.facebook.com/novy.dela.cruz.97247' target="_blank" rel="noopener noreferrer">
                           
                           <FontAwesomeIcon icon={faFacebook} className='text-blue-500 hover:text-blue-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div>
 
                         <div className="tooltip" data-tip="Instagram">
-                        <a >
+                        <a href='https://www.instagram.com/nvydcrx/' target="_blank" rel="noopener noreferrer" >
                           <FontAwesomeIcon icon={faInstagram} className='text-orange-500 hover:text-orange-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500' />
                         </a>
                         </div> 
 
                         <div className="tooltip" data-tip="Email">
 
-                        <a >
+                        <a href="mailto:novydelacrujr@gmail.com">
                           <FontAwesomeIcon icon={faEnvelope} className=' text-gray-500 hover:text-gray-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div> 
 
                         <div className="tooltip" data-tip="Linkin">
 
-                        <a>
+                        <a href='https://www.linkedin.com/in/novy-dela-cruz-jr-8401a1342/' target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faLinkedin} className='text-blue-700 hover:text-blue-800 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div>
@@ -127,7 +127,7 @@ const hero_section = () => {
                         
                         <div className="tooltip" data-tip="Github">
 
-                        <a>
+                        <a href='https://github.com/NJdcruz' target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faGithub} className='text-purple-400 hover:text-purple-500 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div>
@@ -136,7 +136,10 @@ const hero_section = () => {
                       </div>
                     </div>
 
-                    <button className="btn btn-wide btn-soft bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary">Download CV</button>
+                    <a href='./public/RESUME_NOVY_DELACRUZ_may_29.pdf' download={"NovyDelaCruz_CV.pdf"}>
+                      <button className="btn btn-wide btn-soft bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary">Download CV</button>
+                    </a>
+                   
                 </div>
             </div>
 

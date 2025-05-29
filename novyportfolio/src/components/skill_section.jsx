@@ -7,16 +7,16 @@ import Slider from "react-slick";
 const skill_section = () => {
 
     const Skillitems = [
-        {name:"HTML", image:"./src/assets/skill_logo/html_logo.png"},
-        {name:"CSS", image:"./src/assets/skill_logo/CSS_logo.png"},
-        {name:"Javascript", image:"./src/assets/skill_logo/JS_logo.png"},
-        {name:"C-sharp", image:"./src/assets/skill_logo/Csharp_logo.png"},
-        {name:"Tailwind CSS", image:"./src/assets/skill_logo/Tailwind_logo.png"},
-        {name:"Java", image:"./src/assets/skill_logo/Java_logo.png"},
-        {name:"React", image:"./src/assets/skill_logo/React_logo.png"},    
-        {name:"Figma", image:"./src/assets/skill_logo/Figma_logo.png"},
-        {name:"Github", image:"./src/assets/skill_logo/Githhub_logo.png"}, 
-        {name:"Canva", image:"./src/assets/skill_logo/canva_logo.png"},   
+        {name:"HTML", image:"./public/skill_logo/html_logo.png"},
+        {name:"CSS", image:"./public/skill_logo/CSS_logo.png"},
+        {name:"Javascript", image:"./public/skill_logo/JS_logo.png"},
+        {name:"C-sharp", image:"./public/skill_logo/Csharp_logo.png"},
+        {name:"Tailwind CSS", image:"./public/skill_logo/Tailwind_logo.png"},
+        {name:"Java", image:"./public/skill_logo/Java_logo.png"},
+        {name:"React", image:"./public/skill_logo/React_logo.png"},    
+        {name:"Figma", image:"./public/skill_logo/Figma_logo.png"},
+        {name:"Github", image:"./public/skill_logo/Githhub_logo.png"}, 
+        {name:"Canva", image:"./public/skill_logo/canva_logo.png"},   
                                                                 
     ]
 
