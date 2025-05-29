@@ -4,11 +4,11 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import BlurText from '../reactbits_component/Blurtext';
+
 import GradientText from '../reactbits_component/GradientText';
 import Particles from '../reactbits_component/Particles';
 import RotatingText from '../reactbits_component/RotatingText';
-import StarBorder from '../reactbits_component/StarBorder';
+
 
 
 const hero_section = () => {
