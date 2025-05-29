@@ -38,14 +38,14 @@ const navbar = () => {
         }`}>
       <div className="flex justify-center">
         <img 
-        src="./public/NJ_logo_black.png" 
+        src="./src/assets/NJ_logo_black.png" 
         onClick={() => scrollToSection('hero')} 
         className="w-[50px] h-[50px] dark:hidden hover:cursor-pointer " 
         data-aos="fade-up" 
         data-aos-anchor-placement="center-bottom" />
 
         <img 
-        src="./public/NJ_logo_purple.png" 
+        src="./src/assets/NJ_logo_purple.png" 
         onClick={() => scrollToSection('hero')} 
         className="w-[50px] h-[50px] hidden dark:block hover:cursor-pointer" 
         data-aos="fade-up" />

@@ -5,18 +5,18 @@ import FlowingMenu from '../reactbits_component/FlowingMenu'
 const project_section = () => {
 
   const projectset = [
-    { mockupimg:"./public/mock_up/CIM_left.png",
+    { mockupimg:"./src/assets/mock_up/CIM_left.png",
       desc:"A Centralized Information and Media Platform Application with Data Analytics",
-      logo:"./public/mock_up/CIM_logo.png",
+      logo:"./src/assets/mock_up/CIM_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00a228] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       divider: [
       { link: '#', text: 'C I M', image: './src/assets/mock_up/CIM_logo.png' }
     ]
     },
 
-    { mockupimg:"./public/mock_up/evo_left.png",
+    { mockupimg:"./src/assets/mock_up/evo_left.png",
       desc:"A timekeeping system that features a desktop and mobile application for Evotech software solution Inc.",
-      logo:"./public/mock_up/evo_logo.gif",
+      logo:"./src/assets/mock_up/evo_logo.gif",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#ff9505] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       divider: [
       { link: '#', text: 'EvoTKS', image: './src/assets/mock_up/evo_logo.gif' }
@@ -26,8 +26,8 @@ const project_section = () => {
   ]
   
   const demoItems = [
-  { link: '#', text: 'C I M', image: './public/mock_up/CIM_logo.png' },
-  { link: '#', text: 'EvoTKS', image: './public/mock_up/evo_logo.gif' },
+  { link: '#', text: 'C I M', image: './src/assets/mock_up/CIM_logo.png' },
+  { link: '#', text: 'EvoTKS', image: './src/assets/mock_up/evo_logo.gif' },
   ]
 
   return (
