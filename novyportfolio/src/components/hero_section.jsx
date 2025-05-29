@@ -45,7 +45,7 @@ const hero_section = () => {
       />
     </div>
 
-        <div className="  mr-5 mt-5 w-auto h-screen md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
+        <div className="  mr-5 mt-5 md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
             <div className="div">
                 <img src='./src/assets/hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
 
@@ -60,18 +60,18 @@ const hero_section = () => {
                           colors={["#2E073F", "#7A1CAC", "#A40793", "#AD49E1", "#EBD3F8"]}
                           animationSpeed={3}
                           showBorder={false}
-                          className="text-5xl sm:text-6xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-semibold font-montserrat py-3"
+                          className="text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3"
                         >
                            Novy dela Cruz Jr.
                         </GradientText>
 
                         <div className="flex flex-wrap items-center gap-x-2">
 
-                          <div className="card backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass p-2 ">
+                          <div className="card backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass p-2">
                             
                             <RotatingText
                               texts={['UI/UX', 'Front-end']}
-                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-roboto font-normal"
+                              mainClassName="text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-roboto font-normal"
                               staggerFrom={"last"}
                               initial={{ y: "100%" }}
                               animate={{ y: 0 }}
@@ -100,27 +100,27 @@ const hero_section = () => {
                         <div className="tooltip" data-tip="facebook">
                         <a>
                           
-                          <FontAwesomeIcon icon={faFacebook} className='text-blue-500 hover:text-blue-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
+                          <FontAwesomeIcon icon={faFacebook} className='text-blue-500 hover:text-blue-600 hover:cursor-pointer hover:mb-2'/>
                         </a>
                         </div>
 
                         <div className="tooltip" data-tip="Instagram">
                         <a >
-                          <FontAwesomeIcon icon={faInstagram} className='text-orange-500 hover:text-orange-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500' />
+                          <FontAwesomeIcon icon={faInstagram} className='text-orange-500 hover:text-orange-600 hover:cursor-pointer hover:mb-2' />
                         </a>
                         </div> 
 
                         <div className="tooltip" data-tip="Email">
 
                         <a >
-                          <FontAwesomeIcon icon={faEnvelope} className=' text-gray-500 hover:text-gray-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
+                          <FontAwesomeIcon icon={faEnvelope} className=' text-gray-500 hover:text-gray-600 hover:cursor-pointer hover:mb-2'/>
                         </a>
                         </div> 
 
                         <div className="tooltip" data-tip="Linkin">
 
                         <a>
-                          <FontAwesomeIcon icon={faLinkedin} className='text-blue-700 hover:text-blue-800 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
+                          <FontAwesomeIcon icon={faLinkedin} className='text-blue-700 hover:text-blue-800 hover:cursor-pointer hover:mb-2'/>
                         </a>
                         </div>
 
@@ -128,7 +128,7 @@ const hero_section = () => {
                         <div className="tooltip" data-tip="Github">
 
                         <a>
-                          <FontAwesomeIcon icon={faGithub} className='text-purple-400 hover:text-purple-500 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
+                          <FontAwesomeIcon icon={faGithub} className='text-purple-400 hover:text-purple-500 hover:cursor-pointer hover:mb-2'/>
                         </a>
                         </div>
 
@@ -136,7 +136,7 @@ const hero_section = () => {
                       </div>
                     </div>
 
-                    <button className="btn btn-wide btn-soft bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary">Download CV</button>
+                    <button className="btn btn-wide btn-soft bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary">Get Resume</button>
                 </div>
             </div>
 

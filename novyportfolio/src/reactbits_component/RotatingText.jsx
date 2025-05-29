@@ -172,7 +172,6 @@ const RotatingText = forwardRef((props, ref) => {
       <AnimatePresence mode={animatePresenceMode} initial={animatePresenceInitial}>
         <motion.div
           key={currentTextIndex}
-          
           className={cn(
             splitBy === "lines"
               ? "flex flex-col w-full"
