@@ -1,6 +1,6 @@
 import React from 'react'
-import StarBorder from '../reactbits_component/StarBorder'
-import DecryptedText from '../reactbits_component/DecryptedText'
+
+
 import ScrollVelocity from '../reactbits_component/ScrollVelocity'
 import ScrollReveal from '../reactbits_component/ScrollReveal'
 
