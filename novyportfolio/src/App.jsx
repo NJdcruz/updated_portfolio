@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './components/navbar'
 import Hero_section from './components/hero_section'
 import About_section from './components/about_section'
-import Skill_section from './skill_section'
+import Skill_section from './components/skill_section'
 import Project_section from './components/project_section'
 import Footer_section from './components/footer_section'
 import '@fontsource/montserrat';
@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Lenis from 'lenis'
+import ScrollVelocity from './reactbits_component/ScrollVelocity'
 
 
 
@@ -54,6 +55,15 @@ requestAnimationFrame(raf);
           <div id="skills">
             <Skill_section />
           </div>
+            
+         
+            <ScrollVelocity
+ 
+            texts={['UI/UX – Front-end Developer –']}
+            
+            className='relative z-10 bottom-5 font-montserrat font-extrabold text-9xl tracking-wider'
+            />  
+           
 
           <div id="projects">
             <Project_section />

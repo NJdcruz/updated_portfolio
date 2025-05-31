@@ -6,5 +6,5 @@ export default defineConfig({
   plugins: [
     react()
   ],
-    base: '/novydelacruz.github.io/', // 👈 Important!
+  
 })

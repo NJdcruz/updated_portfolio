@@ -31,7 +31,7 @@ const project_section = () => {
   ]
 
   return (
-    <div className=' overflow-y-hidden py-16'>
+    <div className=' overflow-y-hidden py-24'>
 
       <div className="text-center">
         <h1 className='text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3 bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] bg-clip-text text-transparent dark:from-[#AD49E1] dark:to-[#7A1CAC]'>Projects</h1>
