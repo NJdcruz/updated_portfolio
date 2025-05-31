@@ -47,7 +47,7 @@ const hero_section = () => {
 
         <div className="  mr-5 mt-5 w-auto h-screen md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
             <div className="div">
-                <img src='./src/assets/hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
+                <img src='./hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
 
                 
 

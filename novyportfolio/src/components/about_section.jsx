@@ -6,9 +6,9 @@ import ScrollReveal from '../reactbits_component/ScrollReveal'
 
 const about_section = () => {
   return (
-    <div className="relative w-full h-screen bg-[url('./src/assets/bg-mesh-light.png')] bg-cover bg-no-repeat bg-center dark:bg-[url('./src/assets/bg-mesh-dark.png')] ">
+    <div className="relative w-full h-screen bg-[url('./bg-mesh-light.png')] bg-cover bg-no-repeat bg-center dark:bg-[url('./bg-mesh-dark.png')] ">
     
-            <img src='./src/assets/aboutme_portrait.png' className='mx-auto w-auto h-full drop-shadow-custom_purple pt-24' data-aos="zoom-in-up" data-aos-duration="5000"/>
+            <img src='./Aboutme_portrait.png' className='mx-auto w-auto h-full drop-shadow-custom_purple pt-24' data-aos="zoom-in-up" data-aos-duration="5000"/>
 
             
        <div className=" absolute bottom-0 p-0">
