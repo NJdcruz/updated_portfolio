@@ -2,6 +2,7 @@ import {useState}from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import Particles from '../reactbits_component/Particles';
 
 
 const skill_section = () => {
@@ -59,8 +60,22 @@ const skill_section = () => {
     };
 
   return (
-    <div className="w-full h-screen flex flex-col items-center justify-center text-center px-4">
-        <div>
+    <div className=" relative w-full h-screen flex flex-col items-center justify-center text-center px-4 ">
+
+<div className="w-full h-full absolute z-0">
+  <Particles
+    particleColors={['#AD49E1', '#7A1CAC']}
+    particleCount={200}
+    particleSpread={10}
+    speed={0.1}
+    particleBaseSize={100}
+    moveParticlesOnHover={true}
+    alphaParticles={false}
+    disableRotation={false}
+  />
+</div>
+
+        <div className='relative z-10'>
             <h1 className='text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3 bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] bg-clip-text text-transparent dark:from-[#AD49E1] dark:to-[#7A1CAC]'>
             Skill Area
             </h1>

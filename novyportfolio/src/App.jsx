@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 
 import './App.css'
 import Navbar from './components/navbar'
@@ -7,6 +7,7 @@ import About_section from './components/about_section'
 import Skill_section from './components/skill_section'
 import Project_section from './components/project_section'
 import Footer_section from './components/footer_section'
+import Splashscreen from './components/splashscreen'
 import '@fontsource/montserrat';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -19,7 +20,19 @@ import ScrollVelocity from './reactbits_component/ScrollVelocity'
 
 
 
+
 function App() {
+  const[loading, setloading] = useState(true);
+
+   useEffect(() => {
+    // Simulate loading (e.g., fetching data)
+    const timer = setTimeout(() => {
+      setloading(false); // after 2 seconds, set loading to false
+    }, 4500);
+
+    return () => clearTimeout(timer); // cleanup on unmount
+  }, []);
+
   
 // Initialize Lenis
 const lenis = new Lenis();
@@ -39,8 +52,11 @@ requestAnimationFrame(raf);
 
   return (
     <Router>
+      {loading ? (
+        <Splashscreen/>
 
-      <div className='relative overflow-x-hidden bg-slate-200 dark:bg-slate-900'>
+      ):(
+         <div className='relative overflow-x-hidden bg-slate-200 dark:bg-slate-900'>
         <Navbar/>
 
           <div id="hero">
@@ -71,6 +87,10 @@ requestAnimationFrame(raf);
          <Footer_section/>
 
       </div>
+
+      )}
+
+     
 
     </Router>
 

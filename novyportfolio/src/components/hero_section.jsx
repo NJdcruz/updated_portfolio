@@ -8,6 +8,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import GradientText from '../reactbits_component/GradientText';
 import Particles from '../reactbits_component/Particles';
 import RotatingText from '../reactbits_component/RotatingText';
+import ScrollVelocity from '../reactbits_component/ScrollVelocity';
 
 
 
@@ -34,7 +35,7 @@ const hero_section = () => {
 
         }}>
       <Particles
-        particleColors={['#AD49E1', '#2E073F']}
+        particleColors={['#AD49E1', '#7A1CAC']}
         particleCount={200}
         particleSpread={10}
         speed={0.1}
@@ -44,6 +45,12 @@ const hero_section = () => {
         disableRotation={false}
       />
     </div>
+
+ 
+
+    
+
+    
 
         <div className="  mr-5 mt-5 w-auto h-screen md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
             <div className="div">

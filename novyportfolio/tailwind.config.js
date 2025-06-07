@@ -13,8 +13,9 @@ export default {
         helvetica: ['Helvetica', 'Arial', 'sans-serif'],
       },
       dropShadow: {
-        'custom_purple': '2px 2px 5px rgb(192, 126, 250)',
-        'custom_white': '2px 2px 5px white',
+        'custom_purple': '2px 0px 5px rgb(192, 126, 250)',
+        'custom_white': '2px 0px 5px white',
+        'custom_black': '2px 0px 5px #595959'
       },
 
        backdropBlur: {
