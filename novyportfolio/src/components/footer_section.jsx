@@ -23,6 +23,11 @@ const footer_section = () => {
             <nav>
                 <h6 className="footer-title">Contacts</h6>
                 <a className="link link-hover tracking-wider "> DITO: 09924861015 <br /> Globe: 09452581081</a>
+                <a 
+                className="link link-hover tracking-wider "  
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=novydelacruzjr@gmail.com&su=Hello%20Novy&body=I%20wanted%20to%20reach%20out%20about..."  > 
+                novydelacruzjr@gmail.com
+                </a>
            
             </nav>
 

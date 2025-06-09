@@ -6,9 +6,11 @@ const project_section = () => {
 
   const projectset = [
     { mockupimg:"./mock_up/CIM_left.png",
-      desc:"A Centralized Information and Media Platform Application with Data Analytics",
+      desc:"A centralized information and media platform Application with Data Analytics",
       logo:"./mock_up/CIM_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00a228] to-black opacity-20 z-0 pointer-events-none rounded-xl",
+      site_url: "https://thesis-cim-23-xpwq.onrender.com/",
+      btn_style: "btn btn-wide dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
       divider: [
       { link: '#', text: 'C I M', image: './mock_up/CIM_logo.png' }
     ]
@@ -18,8 +20,34 @@ const project_section = () => {
       desc:"A timekeeping system that features a desktop and mobile application for Evotech software solution Inc.",
       logo:"./mock_up/evo_logo.gif",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#ff9505] to-black opacity-20 z-0 pointer-events-none rounded-xl",
+      site_url: "",
+      btn_style:"btn btn-wide btn-disabled dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
       divider: [
       { link: '#', text: 'EvoTKS', image: './mock_up/evo_logo.gif' }
+    ]
+      
+    },
+
+    { mockupimg:"./mock_up/covidective_mock_up.png",
+      desc:"A information system with built in contact tracing form developed during the COVID-19 pandemic.",
+      logo:"./mock_up/covidective_logo.png",
+      overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00CAFF] to-black opacity-20 z-0 pointer-events-none rounded-xl",
+      site_url: "https://covidective.webflow.io/",
+      btn_style:"btn btn-wide  dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      divider: [
+      { link: '#', text: 'COVIDective', image: './mock_up/covidective_logo.png' }
+    ]
+      
+    },
+
+    { mockupimg:"./mock_up/g_quipment_mock_up.png",
+      desc:"A reservation management system for organized usage of gym equipment ",
+      logo:"./mock_up/g_quipment_logo.png",
+      overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#4f4c4c] to-black opacity-20 z-0 pointer-events-none rounded-xl",
+      site_url: "",
+      btn_style:"btn btn-wide btn-disabled dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      divider: [
+      { link: '#', text: 'G-quipment', image: './mock_up/g_quipment_logo.png' }
     ]
       
     }
@@ -76,6 +104,14 @@ const project_section = () => {
                     {project.desc}
 
                   </ScrollReveal>
+
+
+                  <div className="div">
+                    <a href={project.site_url} target="_blank" rel="noopener noreferrer">
+                      <button className={project.btn_style}>Visit site</button>
+                    </a>
+                    
+                  </div>
                 </div>
 
             </div>

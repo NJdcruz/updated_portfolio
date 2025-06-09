@@ -28,7 +28,7 @@ function App() {
     // Simulate loading (e.g., fetching data)
     const timer = setTimeout(() => {
       setloading(false); // after 2 seconds, set loading to false
-    }, 4500);
+    }, 3800);
 
     return () => clearTimeout(timer); // cleanup on unmount
   }, []);

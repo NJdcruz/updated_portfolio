@@ -9,6 +9,7 @@ import GradientText from '../reactbits_component/GradientText';
 import Particles from '../reactbits_component/Particles';
 import RotatingText from '../reactbits_component/RotatingText';
 import ScrollVelocity from '../reactbits_component/ScrollVelocity';
+import ThemeController from '../reactbits_component/ThemeController';
 
 
 
@@ -104,27 +105,28 @@ const hero_section = () => {
 
                     <div className="div my-3">
                       <div className=" space-x-5 text-2xl sm: md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl">
-                        <div className="tooltip" data-tip="facebook">
+                        <div className="tooltip" data-tip="Novy Dela Cruz">
+                          
                         <a href='https://www.facebook.com/novy.dela.cruz.97247' target="_blank" rel="noopener noreferrer">
                           
                           <FontAwesomeIcon icon={faFacebook} className='text-blue-500 hover:text-blue-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div>
 
-                        <div className="tooltip" data-tip="Instagram">
+                        <div className="tooltip" data-tip="Novy Dela Cruz">
                         <a href='https://www.instagram.com/nvydcrx/' target="_blank" rel="noopener noreferrer" >
                           <FontAwesomeIcon icon={faInstagram} className='text-orange-500 hover:text-orange-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500' />
                         </a>
                         </div> 
 
-                        <div className="tooltip" data-tip="Email">
+                        <div className="tooltip" data-tip="novydelacruzjr@gmail.com">
 
-                        <a href="mailto:novydelacrujr@gmail.com">
+                        <a   href="https://mail.google.com/mail/?view=cm&fs=1&to=novydelacruzjr@gmail.com&su=Hello%20Novy&body=I%20wanted%20to%20reach%20out%20about..." target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faEnvelope} className=' text-gray-500 hover:text-gray-600 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
                         </a>
                         </div> 
 
-                        <div className="tooltip" data-tip="Linkin">
+                        <div className="tooltip" data-tip="Novy dela Cruz Jr.">
 
                         <a href='https://www.linkedin.com/in/novy-dela-cruz-jr-8401a1342/' target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faLinkedin} className='text-blue-700 hover:text-blue-800 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>
@@ -132,7 +134,7 @@ const hero_section = () => {
                         </div>
 
                         
-                        <div className="tooltip" data-tip="Github">
+                        <div className="tooltip" data-tip="NJdcruz">
 
                         <a href='https://github.com/NJdcruz' target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faGithub} className='text-purple-400 hover:text-purple-500 hover:cursor-pointer hover:transform hover:-translate-y-1 hover:ease-out duration-500'/>

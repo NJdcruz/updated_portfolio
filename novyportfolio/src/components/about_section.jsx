@@ -4,10 +4,12 @@ import ScrollVelocity from '../reactbits_component/ScrollVelocity'
 import ScrollReveal from '../reactbits_component/ScrollReveal'
 
 
+
 const about_section = () => {
   return (
     <div className="relative w-full h-screen bg-[url('/bg-mesh-light.png')] bg-cover bg-no-repeat bg-center dark:bg-[url('/bg-mesh-dark.png')] ">
     
+   
     
             <img src='./Aboutme_portrait.png' className='mx-auto w-auto h-full drop-shadow-custom_purple  pt-24 transition-all duration-300 ease-in-out transform hover:scale-110' data-aos="zoom-in-up" data-aos-duration="5000"/>
 
