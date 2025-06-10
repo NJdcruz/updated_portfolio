@@ -3,7 +3,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faDownload} from '@fortawesome/free-solid-svg-icons';
 
 import GradientText from '../reactbits_component/GradientText';
 import Particles from '../reactbits_component/Particles';
@@ -63,12 +63,12 @@ const hero_section = () => {
 
             <div className="flex justify-center items-center relative z-10" data-aos="fade-left">
                 <div className="div gap-y-5 text-justify">
-                        <h1 className='text-2xl sm:text-3xl md:text-xl lg:text-xl xl:text-3xl 2xl:text-3xl  font-normal'>I'm</h1>
+                        <h1 className='text-2xl sm:text-3xl md:text-xl lg:text-xl xl:text-3xl 2xl:text-4xl  font-base'> Hello, I'm</h1>
                         <GradientText
                           colors={["#2E073F", "#7A1CAC", "#A40793", "#AD49E1", "#EBD3F8"]}
                           animationSpeed={3}
                           showBorder={false}
-                          className="text-5xl sm:text-6xl md:text-5xl lg:text-5xl xl:text-6xl 2xl:text-6xl font-semibold font-montserrat py-3"
+                          className="text-7xl sm:text-6xl md:text-5xl lg:text-5xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat py-3"
                         >
                            Novy dela Cruz Jr.
                         </GradientText>
@@ -79,7 +79,7 @@ const hero_section = () => {
                             
                             <RotatingText
                               texts={['UI/UX', 'Front-end']}
-                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-5xl font-roboto font-normal"
+                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl font-roboto font-normal"
                               staggerFrom={"last"}
                               initial={{ y: "100%" }}
                               animate={{ y: 0 }}
@@ -146,7 +146,10 @@ const hero_section = () => {
                     </div>
 
                     <a href='./public/RESUME_NOVY_DELACRUZ_may_29.pdf' download={"NovyDelaCruz_CV.pdf"}>
-                      <button className="btn btn-wide dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary">Download CV</button>
+                      <button className="btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary drop-shadow-custom_purple">
+                        <FontAwesomeIcon icon={faDownload} className='text-slate-50 text-base' />
+                        Download Resume
+                        </button>
                     </a>
                 </div>
             </div>

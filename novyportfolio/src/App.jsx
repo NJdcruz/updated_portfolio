@@ -1,5 +1,5 @@
 import { useState,useEffect } from 'react'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css'
 import Navbar from './components/navbar'
 import Hero_section from './components/hero_section'
@@ -11,7 +11,11 @@ import Splashscreen from './components/splashscreen'
 import '@fontsource/montserrat';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Contact_page from './components/pages/contact_page';
+import Home_page from './components/pages/home_page';
+import About_page from './components/pages/about_page';
+import Project_page from './components/pages/project_page';
+
 import Lenis from 'lenis'
 import ScrollVelocity from './reactbits_component/ScrollVelocity'
 
@@ -58,34 +62,16 @@ requestAnimationFrame(raf);
       ):(
          <div className='relative overflow-x-hidden bg-slate-200 dark:bg-slate-900'>
         <Navbar/>
+        <Routes>
+          <Route path='/home_page'  element={<Home_page />}/>
+          <Route path='/contact_page'  element={<Contact_page />}/>
+          <Route path='/about_page'  element={<About_page />}/>
+          <Route path='/project_page'  element={<Project_page />}/>
+          
 
-          <div id="hero">
-            <Hero_section />
-          </div>
+        </Routes>
 
-          <div id="about">
-            <About_section />
-          </div>
-
-          <div id="skills">
-            <Skill_section />
-          </div>
-            
          
-            <ScrollVelocity
- 
-            texts={['UI/UX – Front-end Developer –']}
-            
-            className='relative z-10 bottom-5 font-montserrat font-extrabold text-9xl tracking-wider'
-            />  
-           
-
-          <div id="projects">
-            <Project_section />
-          </div>
-
-         <Footer_section/>
-
       </div>
 
       )}

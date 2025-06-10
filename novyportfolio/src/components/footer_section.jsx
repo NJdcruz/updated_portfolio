@@ -26,7 +26,7 @@ const footer_section = () => {
                 <a 
                 className="link link-hover tracking-wider "  
                 href="https://mail.google.com/mail/?view=cm&fs=1&to=novydelacruzjr@gmail.com&su=Hello%20Novy&body=I%20wanted%20to%20reach%20out%20about..."  > 
-                novydelacruzjr@gmail.com
+                E-mail: novydelacruzjr@gmail.com
                 </a>
            
             </nav>

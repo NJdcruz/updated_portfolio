@@ -37,24 +37,35 @@ const navbar = () => {
             : 'grid grid-rows-2 justify-center gap-2'
         }`}>
       <div className="flex justify-center">
-        <img 
-        src="./NJ_logo_black.png" 
-        onClick={() => scrollToSection('hero')} 
-        className="w-[50px] h-[50px] dark:hidden hover:cursor-pointer " 
-        data-aos="fade-up" 
-        data-aos-anchor-placement="center-bottom" />
+        <Link to="/home_page">
 
-        <img 
-        src="./NJ_logo_purple.png" 
-        onClick={() => scrollToSection('hero')} 
-        className="w-[50px] h-[50px] hidden dark:block hover:cursor-pointer" 
-        data-aos="fade-up" />
-        
+          <img 
+          src="./NJ_logo_black.png" 
+          onClick={() => scrollToSection('hero')} 
+          className="w-[50px] h-[50px] dark:hidden hover:cursor-pointer " 
+          data-aos="fade-up" 
+          data-aos-anchor-placement="center-bottom" />
+
+          <img 
+          src="./NJ_logo_purple.png" 
+          onClick={() => scrollToSection('hero')} 
+          className="w-[50px] h-[50px] hidden dark:block hover:cursor-pointer" 
+          data-aos="fade-up" />
+        </Link>
+
       </div>
       <div className="flex justify-center space-x-4">
-      <button onClick={() => scrollToSection('about')} className="btn btn-ghost btn-sm">About me</button>
-      <button onClick={() => scrollToSection('skills')} className="btn btn-ghost btn-sm">Skill Area</button>
-      <button onClick={() => scrollToSection('projects')} className="btn btn-ghost btn-sm">Projects</button>
+        <Link to="/about_page">
+          <button className="btn btn-ghost btn-sm">About</button>
+        </Link>
+
+        <Link to="/project_page">
+          <button className="btn btn-ghost btn-sm">Projects</button>
+        </Link>
+
+        <Link to="/contact_page">
+          <button  className="btn btn-ghost btn-sm">Contact</button>
+        </Link>
       </div>
     </div>
   </div>
