@@ -3,7 +3,7 @@ import React from 'react'
 const footer_section = () => {
   return (
     <div>
-        <footer className="overflow-y-hidden footer sm:footer-horizontal bg-slate-200 dark:bg-slate-900  text-base-content p-10">
+        <footer className="overflow-y-hidden footer sm:footer-horizontal text-base-content p-10">
             <aside>
                 <img src="./NJ_logo_black.png" className="w-[50px] h-[50px] dark:hidden " data-aos="fade-up" data-aos-anchor-placement="center-bottom" />
                 <img src="./NJ_logo_white.png" className="w-[50px] h-[50px] hidden dark:block " data-aos="fade-up" />

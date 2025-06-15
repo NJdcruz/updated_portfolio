@@ -62,16 +62,19 @@ const hero_section = () => {
             </div>
 
             <div className="flex justify-center items-center relative z-10" data-aos="fade-left">
-                <div className="div gap-y-5 text-justify">
-                        <h1 className='text-2xl sm:text-3xl md:text-xl lg:text-xl xl:text-3xl 2xl:text-4xl  font-base'> Hello, I'm</h1>
-                        <GradientText
-                          colors={["#2E073F", "#7A1CAC", "#A40793", "#AD49E1", "#EBD3F8"]}
-                          animationSpeed={3}
-                          showBorder={false}
-                          className="text-7xl sm:text-6xl md:text-5xl lg:text-5xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat py-3"
-                        >
-                           Novy dela Cruz Jr.
-                        </GradientText>
+                <div className="div gap-y-5 text-justify px-10">
+                  <div className="flex flex-row">
+                    <h1 className='text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat'> Hello, I'm</h1>
+                    <GradientText
+                      colors={["#2E073F", "#7A1CAC", "#A40793", "#AD49E1", "#EBD3F8"]}
+                      animationSpeed={3}
+                      showBorder={false}
+                      className="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat"
+                    >
+                        Novy 
+                    </GradientText>
+                  </div>
+
 
                         <div className="flex flex-wrap items-center gap-x-2">
 
@@ -79,7 +82,7 @@ const hero_section = () => {
                             
                             <RotatingText
                               texts={['UI/UX', 'Front-end']}
-                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-6xl font-roboto font-normal"
+                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-4xl font-montserrat font-semibold"
                               staggerFrom={"last"}
                               initial={{ y: "100%" }}
                               animate={{ y: 0 }}
@@ -91,15 +94,16 @@ const hero_section = () => {
                             />
                             
                           </div>
-                              <span className="text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-4xl 2xl:text-5xl font-roboto font-normal">
-                              Developer
-                            </span>
+
+                          <span className="text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-4xl 2xl:text-4xl font-montserrat font-semibold">
+                            Developer
+                          </span>
 
                         </div>
 
 
                     <p className=" text-lg sm:text-md md:text-xl lg:text-xl xl:text-xl 2xl:text-xl my-5 text-gray-500 dark:text-slate-400">
-                    Bring design to life with precision and creativity <br></br>
+                    I bring design to life with precision and creativity <br></br>
                     Always ready to transform your vision into reality
                     </p>
 
@@ -145,8 +149,8 @@ const hero_section = () => {
                       </div>
                     </div>
 
-                    <a href='./public/RESUME_NOVY_DELACRUZ_may_29.pdf' download={"NovyDelaCruz_CV.pdf"}>
-                      <button className="btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary drop-shadow-custom_purple">
+                    <a href='./public/Novy_Dela_Cruz_Resume.pdf' download={"NovyDelaCruz_CV.pdf"}>
+                      <button className="btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50">
                         <FontAwesomeIcon icon={faDownload} className='text-slate-50 text-base' />
                         Download Resume
                         </button>

@@ -4,7 +4,7 @@ import { gsap } from 'gsap';
 function FlowingMenu({ items = [] }) {
   return (
     <div className="w-full h-full overflow-hidden">
-      <nav className="flex flex-col h-full m-0 p-0">
+      <nav className="flex flex-col h-full m-0 p-0 ">
         {items.map((item, idx) => (
           <MenuItem key={idx} {...item} />
         ))}
@@ -63,7 +63,7 @@ function MenuItem({ link, text, image }) {
         {text}
       </span>
       <div
-        className="w-[200px] h-[7vh] my-[2em] mx-[2vw] p-[1em_0] rounded-[50px] bg-cover bg-center opacity-20"
+        className="w-[200px] h-[7vh] my-[2em] mx-[2vw] p-[1em_0] rounded-[50px] bg-cover bg-center opacity-20 "
         style={{ backgroundImage: `url(${image})` }}
       />
     </React.Fragment>
@@ -72,7 +72,7 @@ function MenuItem({ link, text, image }) {
   return (
     <div className="flex-1 relative overflow-hidden text-center shadow-[0_-1px_0_0_#fff]" ref={itemRef}>
       <a
-        className="flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-white text-[4vh] hover:text-[#060606] focus:text-white focus-visible:text-[#060606]"
+        className="flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-slate-800 text-[4vh] hover:text-[#060606] focus:text-slate-900 focus-visible:text-[#060606]"
         href={link}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}

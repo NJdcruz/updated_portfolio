@@ -25,21 +25,21 @@ const project_section = () => {
         <h1 className='text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3 bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] bg-clip-text text-transparent dark:from-[#AD49E1] dark:to-[#7A1CAC]'>Projects</h1>
          <p className=' font-montserrat text-lg pt-2 pb-10 sm:text-lg md:text-2xl lg:text-2xl xl:text-xl 2xl:text-xl'>Notable projects that i have work on are:</p>
       </div>
-      
-      <Link to="/project_page">
+      {/*
+        <Link to="/project_page">
 
-        <div style={{ height: '600px', position: 'relative' }}>
-          <FlowingMenu items={demoItems} />
-        </div>
+          <div className='h-[600px]'>
+            <FlowingMenu items={demoItems}  />
+          </div>
 
-      </Link>
+        </Link>
+      */}
+<Link to="/project_page">
 
-{
-  /*
-  <div className="div ">
+  <div className="div mx-10">
           <div className="divider">01</div>
 
-            <div className="flex flex-row justify-between px-10">
+            <div className=" overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="CIM "
                 className="  text-7xl font-bold text-center py-3"
@@ -54,6 +54,7 @@ const project_section = () => {
                 textAlign="center"
                 onLetterAnimationComplete={handleAnimationComplete}
               />
+
 
               <SplitText
                 text="01"
@@ -73,7 +74,7 @@ const project_section = () => {
 
           <div className="divider">02</div>
 
-            <div className="flex flex-row justify-between px-10">
+            <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="EvoTKS "
                 className="  text-7xl font-bold text-center py-3"
@@ -107,7 +108,7 @@ const project_section = () => {
 
           <div className="divider">03</div>
 
-            <div className="flex flex-row justify-between px-10">
+            <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="COVIDective "
                 className="  text-7xl font-bold text-center py-3"
@@ -141,7 +142,7 @@ const project_section = () => {
 
           <div className="divider">04</div>
 
-            <div className="flex flex-row justify-between px-10">
+            <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="G-quipment"
                 className="  text-7xl font-bold text-center py-3"
@@ -178,8 +179,7 @@ const project_section = () => {
 
       </div>
 
-  */
-}
+</Link>
       
     </div>
     

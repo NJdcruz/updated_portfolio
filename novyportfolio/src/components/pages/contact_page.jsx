@@ -10,21 +10,7 @@ const contact_page = () => {
   const handleAnimationComplete = () => {
   console.log('All letters have animated!');
 
-  // Initialize Lenis
-const lenis = new Lenis();
 
-// Listen for the scroll event and log the event data
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
-
-// Use requestAnimationFrame to continuously update the scroll
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
 };
 
   return (
@@ -85,7 +71,7 @@ requestAnimationFrame(raf);
 
         <div className="flex justify-center flex-wrap gap-10">
           
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -94,7 +80,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">Email</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">novydelacruzjr@gmail.com</h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">novydelacruzjr@gmail.com</h2>
 
               <a  href="https://mail.google.com/mail/?view=cm&fs=1&to=novydelacruzjr@gmail.com&su=Hello%20Novy&body=I%20wanted%20to%20reach%20out%20about..." target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline my-2">Contact via Email</button>
@@ -103,7 +89,7 @@ requestAnimationFrame(raf);
 
           </div>
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -112,7 +98,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">Facebook</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">Novy Dela Cruz</h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">Novy Dela Cruz</h2>
 
               <a href='https://www.facebook.com/novy.dela.cruz.97247' target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline my-2">Contact via Facebook</button>
@@ -122,7 +108,7 @@ requestAnimationFrame(raf);
 
           </div>
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -131,7 +117,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">Instagram</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">Novy Dela Cruz / @nvdcrx</h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">Novy Dela Cruz / @nvdcrx</h2>
 
               <a href='https://www.instagram.com/nvydcrx/' target="_blank" rel="noopener noreferrer" >
                 <button className="btn btn-outline my-2">Contact via Instagram</button>
@@ -141,7 +127,7 @@ requestAnimationFrame(raf);
 
           </div>                    
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -150,7 +136,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">LinkedIn</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">Novy dela Cruz Jr.</h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">Novy dela Cruz Jr.</h2>
 
               <a href='https://www.linkedin.com/in/novy-dela-cruz-jr-8401a1342/' target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline my-2">Contact via LinkedIn</button>
@@ -162,7 +148,7 @@ requestAnimationFrame(raf);
 
 
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -171,7 +157,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">Github</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">NJdcruz</h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">NJdcruz</h2>
 
               <a href='https://github.com/NJdcruz' target="_blank" rel="noopener noreferrer">
                 <button className="btn btn-outline my-2">Contact via Github</button>
@@ -182,7 +168,7 @@ requestAnimationFrame(raf);
 
           </div>  
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -191,7 +177,7 @@ requestAnimationFrame(raf);
               </div>
 
               <h1 className="font-montserrat text-xl font-semibold my-2">Phone</h1>
-              <h2 className="font-montserrat text-base my-2 text-slate-300">Globe: 09452581081 <br/> DITO: 09924861015 </h2>
+              <h2 className="font-montserrat text-base my-2 text-slate-900 dark:text-slate-300">Globe: 09452581081 <br/> DITO: 09924861015 </h2>
 
              
             </div>

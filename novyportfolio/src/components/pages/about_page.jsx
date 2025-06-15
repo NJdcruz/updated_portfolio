@@ -7,25 +7,11 @@ const about_page = () => {
     const handleAnimationComplete = () => {
   console.log('All letters have animated!');
 
-  // Initialize Lenis
-const lenis = new Lenis();
-
-// Listen for the scroll event and log the event data
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
-
-// Use requestAnimationFrame to continuously update the scroll
-function raf(time) {
-  lenis.raf(time);
-  requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
 
 
 
 };
+
 
     const Skillitems = [
         {name:"HTML", image:"./skill_logo/html_logo.png"},
@@ -48,7 +34,7 @@ requestAnimationFrame(raf);
       <div className=" w-[650px] flexitems-center">
         <SplitText
           text="Helping Companies to thrive in digital world"
-          className=" mb-5 text-6xl font-bold text-center py-3"
+          className=" mb-5 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-start py-3"
           delay={20}
           duration={0.6}
           ease="power3.out"
@@ -63,25 +49,29 @@ requestAnimationFrame(raf);
       </div>
 
       <div className="flex justify-end divider">
-        <div className="flex items-center justify-center p-10 rounded-full bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] drop-shadow-custom_purple">
-          <img
-            src="./NJ_logo_white.png"
-            className="w-[210px] h-[100px] drop-shadow-custom_purple"
-            alt="Logo"
-          />
-        </div>
+
       </div>
 
 
-      <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row">
+      <div className="flex flex-col justify-between sm:flex-col md:flex-col lg:flex-row xl:flex-row 2xl:flex-row">
 
         <AnimatedContent>
 
-          <div className="mt-20 flex flex-col flex-wrap gap-5">
+          <div className=" py-10 ">
+            <div className="flex w-96">
+              <div className="divider divider-horizontal"></div>
+              <h1 className=' text-3xl font-montserrat font-base '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
+            </div>
+ 
 
-            <h1 className=' text-4xl font-montserrat font-base italic '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
+            <div className="mt-20 flex flex-col flex-wrap gap-5">
 
-            <h1 className='text-7xl font-montserrat'>Together, we’ll redefine the standard...</h1>
+
+
+
+            <h1 className='text-7xl font-montserrat'>Together, we’ll redefine the standard.</h1>
+
+           </div>
           </div>
 
         </AnimatedContent>
@@ -90,7 +80,7 @@ requestAnimationFrame(raf);
 
         <div className="dov">
 
-          <img src='./about_page_image.JPG' className=' w-[50vw] transform tr'/>
+          <img src='./about_page_image.JPG' className=' w-auto transform tr'/>
 
         </div>
 
@@ -178,14 +168,14 @@ requestAnimationFrame(raf);
             {Skillitems.map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center w-auto p-2 rounded-lg shadow-md hover:scale-105 transition-transform duration-300 "
+                className="flex flex-col items-center w-auto p-2 rounded-lg hover:scale-105 transition-transform duration-300 "
               >
                 <img
                   src={skill.image}
                   alt={skill.name}
                   className="w-52 h-52 mb-2"
                 />
-                <span className="text-center text-sm font-medium font-montserrat tracking-wide font-semibold">{skill.name}</span>
+                <span className="text-center text-sm  font-montserrat tracking-wide font-semibold">{skill.name}</span>
               </div>
             ))}
       </div>

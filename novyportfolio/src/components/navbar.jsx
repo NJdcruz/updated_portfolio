@@ -37,19 +37,19 @@ const navbar = () => {
             : 'grid grid-rows-2 justify-center gap-2'
         }`}>
       <div className="flex justify-center">
-        <Link to="/home_page">
+        <Link to="/">
 
           <img 
           src="./NJ_logo_black.png" 
           onClick={() => scrollToSection('hero')} 
-          className="w-[50px] h-[50px] dark:hidden hover:cursor-pointer " 
+          className="w-[50px] h-[50px] dark:hidden hover:cursor-pointer hover:drop-shadow-custom_white " 
           data-aos="fade-up" 
           data-aos-anchor-placement="center-bottom" />
 
           <img 
           src="./NJ_logo_purple.png" 
           onClick={() => scrollToSection('hero')} 
-          className="w-[50px] h-[50px] hidden dark:block hover:cursor-pointer" 
+          className="w-[50px] h-[50px] hidden dark:block hover:cursor-pointer " 
           data-aos="fade-up" />
         </Link>
 

@@ -18,7 +18,7 @@ import Project_page from './components/pages/project_page';
 
 import Lenis from 'lenis'
 import ScrollVelocity from './reactbits_component/ScrollVelocity'
-
+import ScrollToTop from './reactbits_component/ScrollToTop';
 
 
 
@@ -37,33 +37,35 @@ function App() {
     return () => clearTimeout(timer); // cleanup on unmount
   }, []);
 
-  
-// Initialize Lenis
-const lenis = new Lenis();
+    
+  // Initialize Lenis
+  const lenis = new Lenis();
 
-// Listen for the scroll event and log the event data
-lenis.on('scroll', (e) => {
-  console.log(e);
-});
+  // Listen for the scroll event and log the event data
+  lenis.on('scroll', (e) => {
+    console.log(e);
+  });
 
-// Use requestAnimationFrame to continuously update the scroll
-function raf(time) {
-  lenis.raf(time);
+  // Use requestAnimationFrame to continuously update the scroll
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
   requestAnimationFrame(raf);
-}
-
-requestAnimationFrame(raf);
 
   return (
     <Router>
+     <ScrollToTop/>
       {loading ? (
         <Splashscreen/>
 
       ):(
-         <div className='relative overflow-x-hidden bg-slate-200 dark:bg-slate-900'>
+         <div className='relative overflow-x-hidden bg-base-100 dark:bg-slate-900'>
         <Navbar/>
         <Routes>
-          <Route path='/home_page'  element={<Home_page />}/>
+          
+          <Route path='/'  element={<Home_page />}/>
           <Route path='/contact_page'  element={<Contact_page />}/>
           <Route path='/about_page'  element={<About_page />}/>
           <Route path='/project_page'  element={<Project_page />}/>

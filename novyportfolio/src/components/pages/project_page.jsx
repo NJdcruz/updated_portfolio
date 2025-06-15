@@ -1,8 +1,13 @@
 import React from 'react'
 import ScrollReveal from '../../reactbits_component/ScrollReveal'
 import FlowingMenu from '../../reactbits_component/FlowingMenu'
+import AnimatedContent from '../../reactbits_component/AnimatedContent'
+import SplitText from '../../reactbits_component/Split_Text'
 
 const project_page = () => {
+   const handleAnimationComplete = () => {
+  console.log('All letters have animated!');
+};
   
 
  const projectset = [
@@ -11,7 +16,7 @@ const project_page = () => {
       logo:"./mock_up/CIM_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00a228] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "https://thesis-cim-23-xpwq.onrender.com/",
-      btn_style: "btn btn-wide dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      btn_style: "btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
       divider: [
       { link: '#', text: 'C I M', image: './mock_up/CIM_logo.png' }
     ]
@@ -34,9 +39,9 @@ const project_page = () => {
       logo:"./mock_up/covidective_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00CAFF] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "https://covidective.webflow.io/",
-      btn_style:"btn btn-wide  dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      btn_style:"btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
       divider: [
-      { link: '#', text: 'COVIDective', image: './mock_up/covidective_logo.png' }
+      { link: '#', text: 'COVIDective (Redesign)', image: './mock_up/covidective_logo.png' }
     ]
       
     },
@@ -55,16 +60,48 @@ const project_page = () => {
   ]
 
   return (
-    <div className='w-full h-auto'>
+    <div className='w-full h-auto overflow-hidden'>
+
+      <AnimatedContent>
+
+
          <div className=' overflow-y-hidden py-32'>
 
-      <div className="text-center">
-        <h1 className='text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3 bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] bg-clip-text text-transparent dark:from-[#AD49E1] dark:to-[#7A1CAC]'>Projects</h1>
-         <p className=' font-montserrat text-lg pt-2 pb-10 sm:text-lg md:text-2xl lg:text-2xl xl:text-xl 2xl:text-xl'>Notable projects that i have work on are:</p>
+      <div className="flex flex-col text-center">
+          <SplitText
+            text="Projects"
+            className="text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat py-3"
+            delay={20}
+            duration={0.6}
+            ease="power3.out"
+            splitType="chars"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+            threshold={0.1}
+            rootMargin="-100px"
+            textAlign="center"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />     
+
+          <SplitText
+            text="Notable projects that i have work on are:"
+            className="font-montserrat text-lg pt-2 pb-10 sm:text-lg md:text-2xl lg:text-2xl xl:text-xl 2xl:text-xl"
+            delay={20}
+            duration={0.6}
+            ease="power3.out"
+            splitType="chars"
+            from={{ opacity: 0, y: 40 }}
+            to={{ opacity: 1, y: 0 }}
+            threshold={0.1}
+            rootMargin="-100px"
+            textAlign="center"
+            onLetterAnimationComplete={handleAnimationComplete}
+          />    
+
       </div>
 
       {projectset.map((project,index) =>(
-        <div className="card mx-10 mb-10 w-auto backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg">
+        <div className="card mx-10 mb-10 w-auto backdrop-blur-glass bg-glass-dark dark:bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg" data-aos = "fade-left">
                       <div className='relative z-50 h-24 text-white '>
               <FlowingMenu items={project.divider} />
             </div>
@@ -128,7 +165,7 @@ const project_page = () => {
     </div>
     
 
-
+      </AnimatedContent>
     </div>
   )
 }
