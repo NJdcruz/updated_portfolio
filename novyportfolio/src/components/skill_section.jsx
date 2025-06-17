@@ -81,7 +81,7 @@ const skill_section = () => {
             <h1 className='text-4xl sm:text-5xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl font-semibold font-montserrat py-3 bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] bg-clip-text text-transparent dark:from-[#AD49E1] dark:to-[#7A1CAC]'>
             Tech Stack
             </h1>
-            <p className='font-montserrat text-lg pt-2 pb-10 sm:text-lg md:text-2xl lg:text-2xl xl:text-xl 2xl:text-xl'>
+            <p className='font-montserrat text-base sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl '>
             I excel at delivering high-quality front-end web solutions using technologies such as:
             </p>
         </div>

@@ -14,9 +14,9 @@ const contact_page = () => {
 };
 
   return (
-    <div className=' relative h-screen px-20 mt-32 overflow-hidden'>
+    <div className=' relative w-screen h-auto px-20 mt-32 overflow-hidden'>
 
-      <div className="absolute w-screen h-screen overflow-hidden">
+      <div className="absolute w-screen h-screen ">
         <Particles
           particleColors={['#AD49E1', '#7A1CAC']}
           particleCount={50}
@@ -37,7 +37,7 @@ const contact_page = () => {
         <div className="text-center">
           <SplitText
             text="Let's Work Together!"
-            className=" mb-2 text-3xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
+            className=" mb-2 text-xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
             delay={100}
             duration={0.6}
             ease="power3.out"
@@ -69,7 +69,7 @@ const contact_page = () => {
 
         </div>
 
-        <div className="flex justify-center flex-wrap gap-10">
+        <div className="flex justify-center flex-wrap gap-5">
           
           <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transition-transform hover:-translate-y-1 hover:ease-out duration-500">
            
@@ -194,7 +194,7 @@ const contact_page = () => {
       <div className="text-center mt-6">
                   <SplitText
             text="I'm currently available for freelance work and new opportunities. Typically respond within 24 hours."
-            className="mb-5 text-xl font-montserrat"
+            className="mb-5 text-base sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl font-montserrat"
             delay={10}
             duration={0.6}
             ease="power3.out"

@@ -159,7 +159,7 @@ const project_page = () => {
 
           <SplitText
             text="Notable projects that i have work on are:"
-            className="font-montserrat text-lg pt-2 pb-10 sm:text-lg md:text-2xl lg:text-2xl xl:text-xl 2xl:text-xl"
+            className="font-montserrat mb-5 text-base sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl "
             delay={20}
             duration={0.6}
             ease="power3.out"
@@ -202,7 +202,7 @@ const project_page = () => {
 
                 <div className="absolute bottom-0 top-0 left-0 sm:left-0 md:left-1/2 lg:left-1/2 xl:left-1/2 2xl:left-1/2 z-30 p-10 text-end ">
                 
-                  <h1 className=' mb-5 tracking-wide leading-loose text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-extrabold font-montserrat'>
+                  <h1 className=' mb-5 tracking-wide text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-extrabold font-montserrat'>
                    
                     {project.desc}
 

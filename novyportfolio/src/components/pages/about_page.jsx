@@ -29,12 +29,12 @@ const about_page = () => {
                                                                 
     ]
   return (
-    <div className=' w-full h-auto px-20 my-32 '>
+    <div className=' w-full h-auto px-10 my-32 '>
 
     <div className=" flex flex-wrap ">
       <SplitText
         text="Helping Companies to thrive in digital world"
-        className="mb-2 text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold font-montserrat pb-3"
+        className="mb-2 text-2xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold font-montserrat pb-3"
         delay={20}
         duration={0.6}
         ease="power3.out"
@@ -58,9 +58,9 @@ const about_page = () => {
         <AnimatedContent>
 
           <div className=" py-10 ">
-            <div className="flex w-96">
+            <div className="flex w-80 sm:w-96 md:w-96 lg:w-96 xl:w-96 2xl:w-96">
               <div className="divider divider-horizontal m-0 p-0"></div>
-              <h1 className=' text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-montserrat font-base p-5 '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
+              <h1 className=' text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-montserrat font-base p-2 '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
             </div>
  
 
@@ -69,7 +69,7 @@ const about_page = () => {
 
 
 
-            <h1 className=' text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-montserrat font-extrabold'>Together, we’ll redefine the standard.</h1>
+            <h1 className=' text-2xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-montserrat font-extrabold'>Together, we’ll redefine the standard.</h1>
 
            </div>
           </div>
@@ -93,7 +93,7 @@ const about_page = () => {
         <div className="idv">
           <SplitText
             text="I can help you with..."
-            className=" mb-5 text-5xl font-bold text-center py-3"
+            className=" mb-5  text-2xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-montserrat font-extrabold text-center py-3"
             delay={20}
             duration={0.6}
             ease="power3.out"
@@ -119,7 +119,7 @@ const about_page = () => {
               <div className="div">
 
                 <h1 className='text-2xl my-5 font-montserrat font-semibold'>UI/UX Design</h1>
-                <p className='text-xl font-montserrat font-normal'>
+                <p className='text-xl sm:text-2xl md:text-2xl lg:text-xl xl:text-xl 2xl:text-xl font-montserrat font-normal'>
                   I deliver strong and user-friendly digital designs.
                 </p>
               </div>
@@ -132,7 +132,7 @@ const about_page = () => {
               <div className="div">
 
                 <h1 className='text-2xl my-5 font-montserrat font-semibold'>Front-end Development</h1>
-                <p className='text-xl font-montserrat font-normal'>
+                <p className='text-xl sm:text-2xl md:text-2xl lg:text-xl xl:text-xl 2xl:text-xl font-montserrat font-normal'>
                   I build digital products from scratch that fit seamlessly with design.
                 </p>
               </div>
@@ -148,7 +148,7 @@ const about_page = () => {
         <div className="div">
           <SplitText
             text="Tech Stack"
-            className=" mb-5 text-5xl font-bold text-center"
+            className=" mb-5 font-bold font-montserrat text-center text-2xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl"
             delay={20}
             duration={0.6}
             ease="power3.out"
@@ -168,7 +168,7 @@ const about_page = () => {
             {Skillitems.map((skill, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center w-auto p-2 rounded-lg hover:scale-105 transition-transform duration-300 "
+                className="flex flex-col items-center w-auto p-2 rounded-lg hover:scale-105 transition-transform duration-300  "
               >
                 <img
                   src={skill.image}
