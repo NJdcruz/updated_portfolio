@@ -42,7 +42,7 @@ const project_section = () => {
             <div className=" overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="CIM "
-                className="  text-7xl font-bold text-center py-3"
+                className=" text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -58,7 +58,7 @@ const project_section = () => {
 
               <SplitText
                 text="01"
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -77,7 +77,7 @@ const project_section = () => {
             <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="EvoTKS "
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -92,7 +92,7 @@ const project_section = () => {
 
               <SplitText
                 text="02"
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -111,7 +111,7 @@ const project_section = () => {
             <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="COVIDective "
-                className="  text-7xl font-bold text-center py-3"
+                className="  text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -126,7 +126,7 @@ const project_section = () => {
 
               <SplitText
                 text="03"
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -145,7 +145,7 @@ const project_section = () => {
             <div className="overflow-hidden flex flex-row justify-between px-10 transform translate-x-2 duration-500 ease-in-out hover:cursor-pointer hover:scale-95 hover:translate-x-4">
               <SplitText
                 text="G-quipment"
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"
@@ -160,7 +160,7 @@ const project_section = () => {
 
               <SplitText
                 text="04"
-                className="  text-7xl font-bold text-center py-3"
+                className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
                 delay={100}
                 duration={0.6}
                 ease="power3.out"

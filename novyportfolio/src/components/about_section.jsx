@@ -50,7 +50,7 @@ const about_section = () => {
                 blurStrength={10}
                 className="relative z-0 font-montserrat text-lg"
             >
-            My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.
+            My passion for design, and coding gives me a distinctive edge in the world of UI/UX.
                    
             </ScrollReveal>
         </div>

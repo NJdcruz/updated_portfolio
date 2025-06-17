@@ -29,26 +29,26 @@ const about_page = () => {
                                                                 
     ]
   return (
-    <div className='w-full h-auto px-20 my-32 '>
+    <div className=' w-full h-auto px-20 my-32 '>
 
-      <div className=" w-[650px] flexitems-center">
-        <SplitText
-          text="Helping Companies to thrive in digital world"
-          className=" mb-5 text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold text-start py-3"
-          delay={20}
-          duration={0.6}
-          ease="power3.out"
-          splitType="chars"
-          from={{ opacity: 0, y: 40 }}
-          to={{ opacity: 1, y: 0 }}
-          threshold={0.1}
-          rootMargin="-100px"
-          textAlign="center"
-          onLetterAnimationComplete={handleAnimationComplete}
-        />
-      </div>
+    <div className=" flex flex-wrap ">
+      <SplitText
+        text="Helping Companies to thrive in digital world"
+        className="mb-2 text-4xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-bold font-montserrat pb-3"
+        delay={20}
+        duration={0.6}
+        ease="power3.out"
+        splitType="chars"
+        from={{ opacity: 0, y: 40 }}
+        to={{ opacity: 1, y: 0 }}
+        threshold={0.1}
+        rootMargin="-100px"
+        textAlign="center"
+        onLetterAnimationComplete={handleAnimationComplete}
+      />
+    </div>
 
-      <div className="flex justify-end divider">
+      <div className="flex justify-end divider my-0 ">
 
       </div>
 
@@ -59,8 +59,8 @@ const about_page = () => {
 
           <div className=" py-10 ">
             <div className="flex w-96">
-              <div className="divider divider-horizontal"></div>
-              <h1 className=' text-3xl font-montserrat font-base '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
+              <div className="divider divider-horizontal m-0 p-0"></div>
+              <h1 className=' text-xl sm:text-2xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-3xl font-montserrat font-base p-5 '>My passion for design, coding, and aesthetics gives me a distinctive edge in the world of UI/UX.</h1>
             </div>
  
 
@@ -69,7 +69,7 @@ const about_page = () => {
 
 
 
-            <h1 className='text-7xl font-montserrat'>Together, we’ll redefine the standard.</h1>
+            <h1 className=' text-3xl sm:text-5xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-6xl font-montserrat font-extrabold'>Together, we’ll redefine the standard.</h1>
 
            </div>
           </div>
@@ -162,7 +162,7 @@ const about_page = () => {
           /> 
           <div className="divider"></div>                 
         </div>
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
 
 
             {Skillitems.map((skill, index) => (

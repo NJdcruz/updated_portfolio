@@ -10,6 +10,7 @@ import Particles from '../reactbits_component/Particles';
 import RotatingText from '../reactbits_component/RotatingText';
 import ScrollVelocity from '../reactbits_component/ScrollVelocity';
 import ThemeController from '../reactbits_component/ThemeController';
+import AnimatedContent from '../reactbits_component/AnimatedContent';
 
 
 
@@ -53,36 +54,30 @@ const hero_section = () => {
 
     
 
-        <div className="  mr-5 mt-5 w-auto h-screen md:flex lg:flex xl:flex 2xl:flex lg:justify-between xl:justify-between 2xl:justify-between" >
-            <div className="div">
-                <img src='./hero_image_purple.png' className='w-full h-[50vh] md:w-[50vw] lg:w-[50vw] xl:w-[50vw] 2xl:w-[50vw] sm: md:h-full lg:h-full xl:h-full 2xl:h-full'  data-aos="fade-right"/>
+        <div className="  mr-5 mt-5 w-auto h-screen flex justify-center items-center" >
 
-                
-
-            </div>
-
-            <div className="flex justify-center items-center relative z-10" data-aos="fade-left">
-                <div className="div gap-y-5 text-justify px-10">
-                  <div className="flex flex-row">
-                    <h1 className='text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat'> Hello, I'm</h1>
+            <div className="flex justify-center items-center relative z-10" >
+                <div className="div gap-y-5 text-center justify-center px-10" data-aos="fade-up"  data-aos-duration="500">
+                  <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row 2xl:flex-row">
+                    <h1 className='text-3xl sm:text-3xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-semibold font-montserrat text-slate-800 dark:text-slate-200'> Hi, I'm</h1>
                     <GradientText
                       colors={["#2E073F", "#7A1CAC", "#A40793", "#AD49E1", "#EBD3F8"]}
                       animationSpeed={3}
                       showBorder={false}
-                      className="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-semibold font-montserrat"
+                      className="text-7xl sm:text-7xl md:text-7xl lg:text-7xl xl:text-8xl 2xl:text-8xl font-semibold font-montserrat"
                     >
                         Novy 
                     </GradientText>
                   </div>
 
 
-                        <div className="flex flex-wrap items-center gap-x-2">
+                        <div className="flex flex-wrap items-center justify-center gap-x-2">
 
-                          <div className="card backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass p-2 ">
+                          <div className="card backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass p-2 " data-aos="fade-up" data-aos-duration="500">
                             
                             <RotatingText
-                              texts={['UI/UX', 'Front-end']}
-                              mainClassName="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl 2xl:text-4xl font-montserrat font-semibold"
+                              texts={['UI/UX', 'Frontend']}
+                              mainClassName="text-3xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-montserrat font-semibold text-slate-800 dark:text-slate-200"
                               staggerFrom={"last"}
                               initial={{ y: "100%" }}
                               animate={{ y: 0 }}
@@ -95,19 +90,19 @@ const hero_section = () => {
                             
                           </div>
 
-                          <span className="text-2xl sm:text-3xl md:text-xl lg:text-2xl xl:text-4xl 2xl:text-4xl font-montserrat font-semibold">
+                          <span className="text-3xl sm:text-4xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-montserrat font-semibold text-slate-800 dark:text-slate-200">
                             Developer
                           </span>
 
                         </div>
 
 
-                    <p className=" text-lg sm:text-md md:text-xl lg:text-xl xl:text-xl 2xl:text-xl my-5 text-gray-500 dark:text-slate-400">
+                    <p className=" text-lg sm:text-md md:text-xl lg:text-xl xl:text-xl 2xl:text-xl my-5 text-gray-500 dark:text-slate-400" data-aos="fade-up" data-aos-duration="600">
                     I bring design to life with precision and creativity <br></br>
                     Always ready to transform your vision into reality
                     </p>
 
-                    <div className="div my-3">
+                    <div className="div my-3" data-aos="fade-up"  data-aos-duration="800">
                       <div className=" space-x-5 text-2xl sm: md:text-4xl lg:text-4xl xl:text-4xl 2xl:text-4xl">
                         <div className="tooltip" data-tip="Novy Dela Cruz">
                           
@@ -149,8 +144,8 @@ const hero_section = () => {
                       </div>
                     </div>
 
-                    <a href='./public/Novy_Dela_Cruz_Resume.pdf' download={"NovyDelaCruz_CV.pdf"}>
-                      <button className="btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50">
+                    <a href='./public/Novy_Dela_Cruz_Resume.pdf' download={"NovyDelaCruz_CV.pdf"} data-aos="fade-up"  data-aos-duration="900">
+                      <button className="btn btn-wide btn-circle bg-gradient-to-r from-[#A40793] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50">
                         <FontAwesomeIcon icon={faDownload} className='text-slate-50 text-base' />
                         Download Resume
                         </button>

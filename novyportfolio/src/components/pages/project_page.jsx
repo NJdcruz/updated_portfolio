@@ -16,7 +16,29 @@ const project_page = () => {
       logo:"./mock_up/CIM_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00a228] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "https://thesis-cim-23-xpwq.onrender.com/",
-      btn_style: "btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
+      btn_style: "btn btn-wide btn-circle bg-gradient-to-r from-[#A40793] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
+      techstack: [
+      {
+        label: "React JS",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Tailwind",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+            {
+        label: "React Native",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+            {
+        label: "CSS",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Canva",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      }
+    ],
       divider: [
       { link: '#', text: 'C I M', image: './mock_up/CIM_logo.png' }
     ]
@@ -28,6 +50,29 @@ const project_page = () => {
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#ff9505] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "",
       btn_style:"btn btn-wide btn-disabled dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      techstack: [
+      {
+        label: "Figma",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: ".NET MAUI",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Canva",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },      
+      {
+        label: "C-sharp",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      }, 
+      {
+        label: "MSSQL",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },     
+
+    ],
       divider: [
       { link: '#', text: 'EvoTKS', image: './mock_up/evo_logo.gif' }
     ]
@@ -39,7 +84,21 @@ const project_page = () => {
       logo:"./mock_up/covidective_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#00CAFF] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "https://covidective.webflow.io/",
-      btn_style:"btn btn-wide btn-circle bg-gradient-to-r from-[#2E073F] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
+      btn_style:"btn btn-wide btn-circle bg-gradient-to-r from-[#A40793] to-[#7A1CAC] hover:bg-[#2E073F] mt-3 hover:btn-secondary shadow-glass text-slate-50",
+      techstack: [
+      {
+        label: "Figma",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Webflow",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Canva",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      }
+    ],
       divider: [
       { link: '#', text: 'COVIDective (Redesign)', image: './mock_up/covidective_logo.png' }
     ]
@@ -51,7 +110,22 @@ const project_page = () => {
       logo:"./mock_up/g_quipment_logo.png",
       overlaystyle:"absolute inset-0 bg-gradient-to-r from-[#4f4c4c] to-black opacity-20 z-0 pointer-events-none rounded-xl",
       site_url: "",
-      btn_style:"btn btn-wide btn-disabled dark:btn-soft btn-secondary dark:bg-[#EBD3F8] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
+      techstack: [
+      {
+        label: "Figma",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Webflow",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+      {
+        label: "Canva",
+        style: "btn btn-xs  cursor-default bg-gradient-to-r from-[#2E073F] to-[#7A1CAC]"
+      },
+   
+    ],
+      btn_style:"btn btn-wide btn-disabled dark:btn-soft btn-secondary dark:bg-[#A40793] hover:bg-[#2E073F] mt-3 hover:text-white dark:text-gray-800 dark:btn-secondary btn-circle",
       divider: [
       { link: '#', text: 'G-quipment', image: './mock_up/g_quipment_logo.png' }
     ]
@@ -126,21 +200,25 @@ const project_page = () => {
               </div>
 
 
-                <div className="absolute bottom-0 top-0 left-0 sm:left-0 md:left-1/2 lg:left-1/2 xl:left-1/2 2xl:left-1/2 z-30 p-10 text-end">
+                <div className="absolute bottom-0 top-0 left-0 sm:left-0 md:left-1/2 lg:left-1/2 xl:left-1/2 2xl:left-1/2 z-30 p-10 text-end ">
                 
-                  <ScrollReveal
-                      baseOpacity={0}
-                      enableBlur={true}
-                      baseRotation={5}
-                      blurStrength={10}
-                      className="relative z-0"
-                    >
+                  <h1 className=' mb-5 tracking-wide leading-loose text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-5xl font-extrabold font-montserrat'>
+                   
                     {project.desc}
 
-                  </ScrollReveal>
+                  </h1>
+
+                  <div className=" flex flex-wrap justify-end gap-2">
+                    {project.techstack?.map((btn, idx) => (
+                     
+                        <button className={btn.style}>{btn.label}</button>
+                    
+                    ))}
+                  
+                  </div>
 
 
-                  <div className="div">
+                  <div className="my-5">
                     <a href={project.site_url} target="_blank" rel="noopener noreferrer">
                       <button className={project.btn_style}>Visit site</button>
                     </a>

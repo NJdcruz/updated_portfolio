@@ -14,7 +14,7 @@ const contact_page = () => {
 };
 
   return (
-    <div className=' relative h-screen px-20 mt-32'>
+    <div className=' relative h-screen px-20 mt-32 overflow-hidden'>
 
       <div className="absolute w-screen h-screen overflow-hidden">
         <Particles
@@ -37,7 +37,7 @@ const contact_page = () => {
         <div className="text-center">
           <SplitText
             text="Let's Work Together!"
-            className=" mb-10 text-7xl font-bold text-center py-3"
+            className=" mb-2 text-3xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-7xl font-bold text-center py-3"
             delay={100}
             duration={0.6}
             ease="power3.out"
@@ -52,7 +52,7 @@ const contact_page = () => {
 
           <SplitText
             text="Here's how you can reach me. Feel free to drop a message through any of these channels."
-            className="mb-5 text-xl font-montserrat"
+            className="mb-5 text-base sm:text-base md:text-base lg:text-lg xl:text-xl 2xl:text-xl  font-montserrat"
             delay={10}
             duration={0.6}
             ease="power3.out"
@@ -71,7 +71,7 @@ const contact_page = () => {
 
         <div className="flex justify-center flex-wrap gap-10">
           
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transition-transform hover:-translate-y-1 hover:ease-out duration-500">
            
             <div className="flex flex-col items-center text-center">
 
@@ -89,7 +89,7 @@ const contact_page = () => {
 
           </div>
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg transition-transform ease-in hover:-translate-y-1 hover:ease-out duration-400">
            
             <div className="flex flex-col items-center text-center">
 
@@ -108,7 +108,7 @@ const contact_page = () => {
 
           </div>
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg transition-transform ease-in hover:-translate-y-1 hover:ease-out duration-400">
            
             <div className="flex flex-col items-center text-center">
 
@@ -127,7 +127,7 @@ const contact_page = () => {
 
           </div>                    
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg transition-transform ease-in hover:-translate-y-1 hover:ease-out duration-400">
            
             <div className="flex flex-col items-center text-center">
 
@@ -148,7 +148,7 @@ const contact_page = () => {
 
 
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg transition-transform ease-in hover:-translate-y-1 hover:ease-out duration-400">
            
             <div className="flex flex-col items-center text-center">
 
@@ -168,7 +168,7 @@ const contact_page = () => {
 
           </div>  
 
-          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg hover:transform hover:-translate-y-1 hover:ease-out duration-500">
+          <div className="card p-5 w-[250px] text-center backdrop-blur-glass bg-glass-white border border-glass-border shadow-glass rounded-xl card-lg transition-transform ease-in hover:-translate-y-1 hover:ease-out duration-400">
            
             <div className="flex flex-col items-center text-center">
 

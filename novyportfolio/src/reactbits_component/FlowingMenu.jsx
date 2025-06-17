@@ -72,7 +72,7 @@ function MenuItem({ link, text, image }) {
   return (
     <div className="flex-1 relative overflow-hidden text-center shadow-[0_-1px_0_0_#fff]" ref={itemRef}>
       <a
-        className="flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-slate-800 text-[4vh] hover:text-[#060606] focus:text-slate-900 focus-visible:text-[#060606]"
+        className="flex items-center justify-center h-full relative cursor-pointer uppercase no-underline font-semibold text-slate-100 text-[4vh] hover:text-[#060606] focus:text-slate-900 focus-visible:text-[#060606]"
         href={link}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
